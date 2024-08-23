@@ -1,4 +1,4 @@
-import "./ProductCard.css";
+import "./ProductCard.scss";
 import { products, categories } from "../../helper/data.js";
 import React from "react";
 

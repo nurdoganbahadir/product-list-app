@@ -1,17 +1,23 @@
-import "./Header.css";
-
+import "./Header.scss";
 import React from "react";
 
 function Header() {
+  const categories = [
+    "all",
+    "electronics",
+    "jewelery",
+    "men's clothing",
+    "women's clothing",
+  ];
   return (
     <div className="header">
       <h1 className="title">Products List</h1>
       <div className="menu">
-        <button>All</button>
-        <button>ELECTRONİCS</button>
-        <button>JEWELERY</button>
-        <button>MEN'S CLOTHİNS</button>
-        <button>WOMEN'S CLOTHİNGS</button>
+        <div className="btnWrapper">
+          {categories.map((category, index) => (
+            <button key={index}>{category}</button>
+          ))}
+        </div>
       </div>
     </div>
   );
