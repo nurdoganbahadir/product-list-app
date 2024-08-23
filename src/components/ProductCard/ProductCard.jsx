@@ -10,7 +10,7 @@ function ProductCard() {
         {products.map((item) => (
           <div className="card">
             <img src={item.image} alt="" />
-            <h2 className="price">${item.price}</h2>
+            <h3 className="price">${item.price}</h3>
             <p className="title">{item.title}</p>
           </div>
         ))}

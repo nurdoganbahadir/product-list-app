@@ -1,1 +1,40 @@
-/*# sourceMappingURL=ProductCard.css.map */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.container .productCards {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.container .productCards .card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .productCards .card img {
+  width: 250px;
+  height: 350px;
+  opacity: 0.6;
+}
+.container .productCards .card img:hover {
+  opacity: 1;
+}
+.container .productCards .card h3 {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border-radius: 10px;
+}/*# sourceMappingURL=ProductCard.css.map */
