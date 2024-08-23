@@ -1,6 +1,5 @@
 import "./ProductCard.css";
-import { products } from "../../helper/data.js";
-
+import { products, categories } from "../../helper/data.js";
 import React from "react";
 
 function ProductCard() {
