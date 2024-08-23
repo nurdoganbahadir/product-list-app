@@ -1,0 +1,1 @@
+import "./ProductCard.scss";
