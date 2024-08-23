@@ -16,6 +16,9 @@
       height: 350px;
       border-radius: 10px;
       overflow: hidden;
+      &:hover p {
+        transform: translate(-100%);
+      }
       img {
         width: 250px;
         height: 350px;
@@ -34,6 +37,18 @@
         background-color: black;
         padding: 6px;
         border-radius: 10px;
+      }
+      p {
+        width: 250px;
+        position: absolute;
+        z-index: 2;
+        right: -100%;
+        bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.637);
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+        transition: all 0.5s;
       }
     }
   }
