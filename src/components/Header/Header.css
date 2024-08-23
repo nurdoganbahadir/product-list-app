@@ -1,1 +1,29 @@
-/*# sourceMappingURL=Header.css.map */
+.header {
+  margin-top: 4rem;
+  text-align: center;
+}
+.header .title {
+  padding: 1rem;
+  color: rgb(255, 136, 0);
+}
+.header .menu {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.header .menu button {
+  background-color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.header .menu button:hover {
+  color: white;
+  background-color: red;
+}/*# sourceMappingURL=Header.css.map */

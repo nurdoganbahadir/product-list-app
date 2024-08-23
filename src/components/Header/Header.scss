@@ -1,0 +1,31 @@
+@use "../../scss/variables";
+
+.header {
+  margin-top: 4rem;
+  text-align: center;
+  .title {
+    padding: 1rem;
+    color: variables.$titleColor;
+  }
+  .menu {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    button {
+      background-color: white;
+      border: none;
+      padding: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.5s;
+      &:hover {
+        color: white;
+        background-color: red;
+      }
+    }
+  }
+}
