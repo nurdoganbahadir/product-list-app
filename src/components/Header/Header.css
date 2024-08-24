@@ -15,15 +15,16 @@
   align-items: center;
   gap: 1rem;
 }
-.header .menu button {
+.header .menu .btnWrapper button {
   background-color: white;
   border: none;
+  margin: 10px;
   padding: 1rem;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.5s;
 }
-.header .menu button:hover {
+.header .menu .btnWrapper button:hover {
   color: white;
   background-color: red;
 }/*# sourceMappingURL=Header.css.map */
